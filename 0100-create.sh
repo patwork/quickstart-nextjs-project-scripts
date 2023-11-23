@@ -7,7 +7,7 @@ if [ "$1" = "" ] ; then
 fi
 
 # Create Next App
-pnpm dlx create-next-app@latest --ts --tailwind --eslint --app --src-dir --use-pnpm --import-alias "@/*" "$1"
+pnpm dlx create-next-app@latest --ts --tailwind --eslint --app --no-src-dir --use-pnpm --import-alias "@/*" "$1"
 cd "$1"
 
 # Optional Git config
