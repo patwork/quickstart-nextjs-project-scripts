@@ -31,3 +31,14 @@ pnpm scripts
 "format":     "prettier --check .",
 "format:fix": "prettier --write ."
 ```
+
+devDependencies
+
+- husky
+- eslint-config-prettier
+- @typescript-eslint/eslint-plugin
+- @typescript-eslint/parser
+- prettier
+- prettier-plugin-organize-imports
+- prettier-plugin-tailwindcss
+
